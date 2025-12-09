@@ -7593,6 +7593,7 @@ var AppModule = (() => {
       gsapWithCSS.registerPlugin(ScrollTrigger2);
     }
     init() {
+      return;
       this.elements();
       this.convertLottie();
       this.sizing();
@@ -7624,6 +7625,7 @@ var AppModule = (() => {
         el.lottie.remove();
       });
       this.lottiesLoaded = 0;
+      return;
       this.slides.forEach((el, i) => {
         el.animation = lottie.loadAnimation({
           container: el.newElement,
@@ -7696,6 +7698,7 @@ var AppModule = (() => {
   // js/modules/ClassManager.js
   window.AppClasses = { VideoBlock, Swiper, Cards, FAQ, HeaderScroll, Animations, FormValidation };
   function initializeClasses() {
+    return;
     document.querySelectorAll(VideoBlock.selector).forEach((element, index) => {
       new VideoBlock(element, { index });
     });

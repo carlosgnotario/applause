@@ -9,6 +9,7 @@ export default class ScrollSlider {
     }
 
     init() {
+        return;
         this.elements();
         this.convertLottie();
         this.sizing();
@@ -48,6 +49,8 @@ export default class ScrollSlider {
         });
 
         this.lottiesLoaded = 0;
+
+        return;
 
         this.slides.forEach((el, i) => {
             el.animation = lottie.loadAnimation({

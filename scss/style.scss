@@ -335,12 +335,10 @@ html:not(.wf-doc) {
         top: 0;
         width: 100%;
         height: 100%;
-        background-image: url('https://cdn.prod.website-files.com/689484ae9f530620d595ea19/68cd56d59e5d9f03dd28628b_bg%20(1).jpg');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: 0px 0px,0px 0px;
+        background-image: url('https://cdn.prod.website-files.com/689484ae9f530620d595ea19/69388dbaa9039e6c986bcbe3_grain.webp');
         mix-blend-mode: multiply;
-        mask-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 90%, rgba(0,0,0,0) 100%);
+        mask-image: url('https://cdn.prod.website-files.com/689484ae9f530620d595ea19/693895c19586d689203d8c2a_mask_b.webp');
+        mask-size: cover;
         z-index: -1;
     }
 }
